@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    database: postgresql
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  datasource:
+    hikari:
+      maximum-pool-size: 4
+    url: jdbc:postgresql://ep-square-bush-a1jx0mmy.ap-southeast-1.pg.koyeb.app/koyebdb
+    username: koyeb-adm
+    password: npg_wzSst9dfm6Ni
+    driver-class-name: org.postgresql.Driver
+
+
+
+jwt:
+  secret-key: fast_campus.sns-application-2025.secret-key-rlawjddns0-lksj1ic09~~~!!!!ldfjislilekkkkkkk.
+  token.expired-time-ms: 2592000000
+
